@@ -1,0 +1,7 @@
+s=input().split()
+sl=s[0]
+for i in s:
+    if len(i)<len(sl):
+        sl=i
+print(sl)
+        
